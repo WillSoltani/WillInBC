@@ -1,8 +1,6 @@
 window.initNewBackground2 = function() {
-    console.log("Custom initNewBackground2: Initializing Background2.");
     const canvas = document.getElementById("bg-canvas-2");
     if (!canvas) {
-      console.error("Alternate background canvas (bg-canvas-2) not found for Background2.");
       return;
     }
     if (typeof disposeCurrentBackgroundRenderer === "function") {
